@@ -11,17 +11,18 @@ h1
   color:black;
   font-family:'Raleway', sans-serif;
   font-size: 40px;
+  font-weight:200;
 }
 li
 {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: black
+  color: black;
 }
 ol
 {
   font-family: "Raleway", sans-serif;
-  color:#FFF0F5;
+  color:black;
   font-size: 20px;
 }
 h2
