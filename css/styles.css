@@ -13,11 +13,6 @@ h1
     font-style: bold italic;
     line-height: initial;
 }
-h2{
-  font-family: 'Gopher' italic;
-  font-size: 30px;
-  font-weight: 300px;
-}
 body
 {
   background-color: linen;
