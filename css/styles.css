@@ -2,15 +2,23 @@
 p
 {
   font-family: "Gopher";
-  font-size: 15px;
+  font-size: 20px;
   color: Black;
 }
 h1
 {
   font-family: "Gopher";
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 40px;
-    font-style: bold italic;
+      color: #FFAA05;
+    line-height: initial;
+}
+h3{
+  font-family: "Gopher";
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFAA05;
+    text-align: center;
     line-height: initial;
 }
 body
@@ -21,25 +29,35 @@ body
 
 .navbar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   font-family: "gopher";
   color: black;
+  text-decoration:none;
 }
 .navbar-logo{
   padding: 30px;
+  display: inline;
 }
-.navbar-a{
+.navbar-a a{
   padding: 30px;
+  text-decoration: none;
+  color: #000000;
 }
-.navbar-b{
-  padding: 30px
+.navbar-b a{
+  padding: 30px;
+  text-decoration:none;
+  color: #000000;
 }
-.navbar-c{
+.navbar-c a{
   padding:30px;
+  text-decoration: none;
+  color: #000000;
 }
-.navbar-d{
-  padding:30px
+.navbar-d a{
+  padding:30px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .images{
@@ -53,6 +71,8 @@ padding:30px;
 .images-2{
   padding:30px;
 }
+
+
   @media screen and (min-width:400px) and (max-width: 700px) {
     .navbar {
       padding: 5px;
@@ -69,3 +89,86 @@ padding:30px;
         background-color: linen;
       }
     }
+  .aboutme{
+    display:flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    padding: 60px;
+  }
+  .aboutme-1{
+    padding:0;
+  }
+  .aboutme-2{
+  font-family: "Gopher";
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFAA05;
+  padding: 30px;
+  flex-direction: column;
+}
+.container div {
+  font-family: "Gopher";
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  padding: 30px;
+}
+.contactme{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contactme-h1{
+  font-family: "Gopher";
+  font-weight: 600;
+  font-size: 20px;
+  color: Black;
+  padding: 0;
+}
+.contactme-h2{
+  font-family: "Gopher";
+  font-weight: 600;
+  font-size: 25px;
+  color: Black;
+  padding: 0;
+}
+.contactme-h3{
+  font-family: "Gopher";
+  font-weight: 300;
+  font-size: 15px;
+  color: Black;
+  padding: 0;
+}
+.contactme-h4{
+  border: Black;
+  margin: 6px;
+}
+
+form {
+  font-family:"Gopher";
+  color: black;
+}
+input[type=text]{
+  text-align: center;
+  font-family: "gopher";
+  width: 30%;
+  padding:12px 50px;
+  margin: 8px 0;
+  background-color: #FDD7B1;
+  border:2px solid black;
+  border-radius: 4px;
+  color: #000000;
+}
+.portfolio{
+  display: flex;
+  justify-content: center;
+}
+.portfolio-1{
+  padding: 30px;
+}
+.portfolio-2{
+  padding: 30px;
+}
+.portfolio-3{
+  padding: 30px;
+}
