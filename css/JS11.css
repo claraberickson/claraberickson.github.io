@@ -1,0 +1,24 @@
+html {background-color: linen;
+}
+
+button{
+  font-size: 50px;
+  color: #FFAA05;
+  font-family: "Gopher";
+  background-color: linen;
+  border: 5px solid white;
+  border-radius: 5px;
+  transition: all 900ms ease-in-out;
+}
+
+
+span{
+  color: #FFAA05;
+  padding: 30px;
+  font-family: "Gopher";
+}
+
+.clicked {
+  color:#FFAA05;
+  padding: 30px;
+}
