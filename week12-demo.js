@@ -7,7 +7,7 @@ async function getQuote() {
     }
     const json = await response.json();
     console.log(json);
-    displayQuote(json.quote);
+    displayQuote(json.message);
   }catch(err) {
     console.log(err)
     alert('Failed');
@@ -17,7 +17,7 @@ function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
 }
-const endpoint = '"http://forismatic.com/en/5f8bae1c94/';
+const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
 
