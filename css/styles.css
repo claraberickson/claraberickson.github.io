@@ -1,25 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Serif:wght@100&family=Rubik:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
 p
 {
-  font-family: "Gopher";
-  font-size: 20px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 15px;
   color: Black;
+  font-weight: 300;
 }
 h1
 {
-  font-family: "Gopher";
+  font-family: 'Prompt', sans-serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
       color: #FFAA05;
     line-height: initial;
+    padding:0px;
+    margin-top: -30px;
 }
 h3{
-  font-family: "Gopher";
+  font-family: 'Prompt', sans-serif;
     font-weight: 600;
     font-size: 40px;
     color: #FFAA05;
     text-align: center;
     line-height: initial;
+    margin-top: -30px;
 }
 body
 {
@@ -31,33 +37,38 @@ body
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "gopher";
-  color: black;
+  font-family: 'Prompt', sans-serif;
+  color: #FFAA05;
   text-decoration:none;
+  padding: 1px;
+  margin-top: -25px;
+  font-weight: 300;
 }
 .navbar-logo{
-  padding: 30px;
+  padding: 1px;
   display: inline;
 }
 .navbar-a a{
   padding: 30px;
   text-decoration: none;
-  color: #000000;
+  color:#FFAA05;
 }
 .navbar-b a{
   padding: 30px;
   text-decoration:none;
-  color: #000000;
+  color:#FFAA05;
+
 }
 .navbar-c a{
   padding:30px;
   text-decoration: none;
-  color: #000000;
+color:#FFAA05;
+
 }
 .navbar-d a{
   padding:30px;
   text-decoration: none;
-  color: #000000;
+  color:#FFAA05;
 }
 
 .images{
@@ -93,25 +104,29 @@ padding:30px;
     display:flex;
     justify-content: flex-start;
     align-content: space-between;
-    padding: 60px;
+    padding: 30px;
+
   }
   .aboutme-1{
     padding:0;
+    margin-top: -15px;
   }
   .aboutme-2{
-  font-family: "Gopher";
+  font-family: 'Prompt', sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: #FFAA05;
   padding: 30px;
   flex-direction: column;
+  margin-top: -70px;
 }
 .container div {
-  font-family: "Gopher";
+  font-family: 'Prompt', sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: black;
   padding: 30px;
+  justify-content: center;
 }
 .contactme{
   display: flex;
@@ -119,21 +134,21 @@ padding:30px;
   flex-direction: column;
 }
 .contactme-h1{
-  font-family: "Gopher";
+  font-family:'Prompt', sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: Black;
   padding: 0;
 }
 .contactme-h2{
-  font-family: "Gopher";
+  font-family: 'Prompt', sans-serif;
   font-weight: 600;
   font-size: 25px;
   color: Black;
   padding: 0;
 }
 .contactme-h3{
-  font-family: "Gopher";
+  font-family: 'Prompt', sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: Black;
@@ -145,7 +160,7 @@ padding:30px;
 }
 
 form {
-  font-family:"Gopher";
+  font-family:'Prompt', sans-serif;
   color: black;
 }
 input[type=text]{
@@ -162,6 +177,7 @@ input[type=text]{
 .portfolio{
   display: flex;
   justify-content: center;
+  margin-top: -30px;
 }
 .portfolio-1{
   padding: 30px;
