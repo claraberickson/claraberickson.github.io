@@ -16,7 +16,7 @@ h1
       color: #FFAA05;
     line-height: initial;
     padding:0px;
-    margin-top: -30px;
+
 }
 h3{
   font-family: 'Prompt', sans-serif;
@@ -35,14 +35,15 @@ body
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-family: 'Prompt', sans-serif;
   color: #FFAA05;
   text-decoration:none;
   padding: 1px;
-  margin-top: -25px;
+  margin-top: -50px;
   font-weight: 300;
+
 }
 .navbar-logo{
   padding: 1px;
@@ -69,6 +70,10 @@ color:#FFAA05;
   padding:30px;
   text-decoration: none;
   color:#FFAA05;
+}
+.navbar-logo-2 {
+  padding: 1px;
+  display: inline;
 }
 
 .images{
@@ -130,7 +135,7 @@ padding:30px;
 }
 .contactme{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
 }
 .contactme-h1{
@@ -139,6 +144,7 @@ padding:30px;
   font-size: 20px;
   color: Black;
   padding: 0;
+  justify-content: center;
 }
 .contactme-h2{
   font-family: 'Prompt', sans-serif;
@@ -146,6 +152,7 @@ padding:30px;
   font-size: 25px;
   color: Black;
   padding: 0;
+  justify-content:
 }
 .contactme-h3{
   font-family: 'Prompt', sans-serif;
@@ -153,15 +160,18 @@ padding:30px;
   font-size: 15px;
   color: Black;
   padding: 0;
+  justify-content: center;
 }
 .contactme-h4{
   border: Black;
   margin: 6px;
+  justify-content: center;
 }
 
 form {
   font-family:'Prompt', sans-serif;
   color: black;
+  justify-content: center;
 }
 input[type=text]{
   text-align: center;
@@ -173,6 +183,7 @@ input[type=text]{
   border:2px solid black;
   border-radius: 4px;
   color: #000000;
+
 }
 .portfolio{
   display: flex;
@@ -187,4 +198,79 @@ input[type=text]{
 }
 .portfolio-3{
   padding: 30px;
+}
+
+.projects{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Prompt', sans-serif;
+  color: #FFAA05;
+  text-decoration:none;
+  padding: 1px;
+  margin-top: -30px;
+  font-weight: 500;
+  word-spacing: 10px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.projects-1 a{
+  padding:0px;
+  text-decoration: none;
+  color:#FFAA05;
+}
+.projects-2 a{
+  padding:0px;
+  text-decoration: none;
+  color:#FFAA05;
+}
+.projects-3 a{
+  padding: 0px;
+  text-decoration: none;
+  color:#FFAA05;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
