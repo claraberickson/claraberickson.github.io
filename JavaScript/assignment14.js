@@ -5,21 +5,21 @@ const employees = [
   department: "Tech",
   designation: "Manager",
   salary: 40000,
-  raiseEligible: true,
+  raise: true,
 },
 {
   firstName: "Mary",
   department: "Finance",
   designation: "Trainee",
   salary: 18500,
-  raiseEligible: true,
+  raise: true,
 },
 {
   firstName: "Bill",
   department: "HR",
   designation: "Executive",
   salary: 21200,
-  raiseEligible: false,
+  raise: false,
 },
 ];
 console.log("Problem 1", employees);
@@ -33,12 +33,11 @@ const company = {
 console.log("Problem 2", company);
 
 //Problem 3
-function addEmployee(firstName, departnment, designation, salary, raiseEligible) {
-  const newEmployee = {firstName, department, designation, salary, raiseEligible}
+function addEmployee(firstName, departnment, designation, salary, raise) {
+  const newEmployee ={firstName, department, designation, salary, raise};
   employees.push(newEmployee);
 }
-addEmployee("Anna","Tech","Executive",25600,false);
-
+addEmployee("Anna","Tech","Executive",25600, false);
 console.log("Problem 3", employee);
 
 //Problem 4
@@ -50,9 +49,9 @@ console.log("Problem 4", totalSalary);
 
 //Problem 5
 for (const id in employees) {
-  if (employees[id].raiseEligible){
+  if (employees[id].raise){
   employees[id].salary *= 1.1;
-  employees[id].raiseEligible = false;
+  employees[id].raise = false;
   }
 }
 console.log("Problem 5", employees);

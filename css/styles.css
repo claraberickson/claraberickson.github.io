@@ -15,17 +15,52 @@ h1
     font-size: 30px;
       color: #FFAA05;
     line-height: initial;
-    padding:0px;
+    padding-left:30px;
+    padding-top: 13px;
 
+}
+h2{
+  font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFAA05;
+    text-align: left;
+    line-height: initial;
+    margin-bottom: 30px;
+    padding: 30px;
 }
 h3{
   font-family: 'Prompt', sans-serif;
+  display: inline;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     color: #FFAA05;
     text-align: center;
     line-height: initial;
     margin-top: -30px;
+    padding: 30px;
+}
+h4{
+  font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFAA05;
+    text-align: center;
+    line-height: initial;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+h5{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+    font-size: 30px;
+      color: #black;
+    line-height: initial;
+    text-align: center;
+    margin-top: -15px;
+
 }
 body
 {
@@ -34,21 +69,39 @@ body
 }
 
 .navbar {
+
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-family: 'Prompt', sans-serif;
   color: #FFAA05;
   text-decoration:none;
-  padding: 1px;
-  margin-top: -50px;
-  font-weight: 300;
+  /* margin-top: -50px; */
+  font-weight: 300px;
+  padding: 0px;
 
 }
+
 .navbar-logo{
-  padding: 1px;
-  display: inline;
+  padding-left: 30px;
+  display: inline-flex;
+margin-top: -50px;
 }
+
+.navbar-dropbtn{
+  background-color: #FFF1DE;
+  color: #E36834;
+  padding: 16px;
+  padding-right: 50px;
+  font-size: 50px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  justify-content: flex-end;
+  display: flex;
+  }
+}
+/*
 .navbar-a a{
   padding: 30px;
   text-decoration: none;
@@ -70,9 +123,9 @@ color:#FFAA05;
   padding:30px;
   text-decoration: none;
   color:#FFAA05;
-}
+} */
 .navbar-logo-2 {
-  padding: 1px;
+  padding: 0px;
   display: inline;
 }
 
@@ -82,10 +135,10 @@ color:#FFAA05;
 
 }
 .images-1{
-padding:30px;
+padding:0px;
 }
 .images-2{
-  padding:30px;
+  padding:0px;
 }
 
 
@@ -107,23 +160,25 @@ padding:30px;
     }
   .aboutme{
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: space-between;
-    padding: 30px;
+    padding: 0px;
 
   }
   .aboutme-1{
-    padding:0;
-    margin-top: -15px;
+    padding:60px;
+    margin-top: -35px;
+    margin-right: 50px;
   }
   .aboutme-2{
   font-family: 'Prompt', sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 40px;
   color: #FFAA05;
   padding: 30px;
   flex-direction: column;
   margin-top: -70px;
+  margin-right: 50px;
 }
 .container div {
   font-family: 'Prompt', sans-serif;
@@ -137,22 +192,28 @@ padding:30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+
 }
 .contactme-h1{
   font-family:'Prompt', sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 40px;
   color: Black;
   padding: 0;
   justify-content: center;
+  align-items: center;
+  margin-top: -50px;
 }
 .contactme-h2{
   font-family: 'Prompt', sans-serif;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 50px;
   color: Black;
-  padding: 0;
-  justify-content:
+  padding: 0px;
+  justify-content:center;
+  align-items: center;
+  margin-top: -15px;
 }
 .contactme-h3{
   font-family: 'Prompt', sans-serif;
@@ -161,21 +222,24 @@ padding:30px;
   color: Black;
   padding: 0;
   justify-content: center;
+  align-items: center;
 }
 .contactme-h4{
   border: Black;
   margin: 6px;
   justify-content: center;
+  align-items: center;
 }
 
 form {
   font-family:'Prompt', sans-serif;
   color: black;
   justify-content: center;
+  text-align: center;
 }
 input[type=text]{
   text-align: center;
-  font-family: "gopher";
+  font-family: 'Prompt', sans-serif;
   width: 30%;
   padding:12px 50px;
   margin: 8px 0;
@@ -183,12 +247,16 @@ input[type=text]{
   border:2px solid black;
   border-radius: 4px;
   color: #000000;
+text-align: center;
 
 }
 .portfolio{
   display: flex;
   justify-content: center;
   margin-top: -30px;
+  font-size: 80px;
+  font-weight: 600;
+  font-family: 'Prompt', sans-serif;
 }
 .portfolio-1{
   padding: 30px;
@@ -207,8 +275,8 @@ input[type=text]{
   font-family: 'Prompt', sans-serif;
   color: #FFAA05;
   text-decoration:none;
-  padding: 1px;
-  margin-top: -30px;
+  padding: 20px;
+  margin-top: -50px;
   font-weight: 500;
   word-spacing: 10px;
   padding-left: 400px;
@@ -229,48 +297,148 @@ input[type=text]{
   text-decoration: none;
   color:#FFAA05;
 }
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+
+    .portfolio{
+      display: inline-flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: -30px;
+      font-size: 80px;
+      font-weight: 600;
+      font-family: 'Prompt', sans-serif;
+    }
+
+  }
 }
 
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 16px;
+
+@media screen and (min-width: 701px) {
+  .portfolio{
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+
+  }
+  .projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Prompt', sans-serif;
+    color: #FFAA05;
+    text-decoration:none;
+    padding: 20px;
+    margin-top: -50px;
+    font-weight: 500;
+    word-spacing: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+    position: relative;
+  }
+  .projects-1 a{
+    padding:0px;
+    text-decoration: none;
+    color:#FFAA05;
+    justify-content: space-around;
+  }
+  .projects-2 a{
+    padding:0px;
+    text-decoration: none;
+    color:#FFAA05;
+    justify-content: space-around;
+  }
+  .projects-3 a{
+    padding: 0px;
+    text-decoration: none;
+    color:#FFAA05;
+    justify-content: space-around;
+  }
+
+}
+@media screen and (max-width: 399px){
+  .portfolio{
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+  }
+  h1{
+    font-family: 'Prompt', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+        color: #FFAA05;
+      line-height: initial;
+      padding-left:30px;
+      padding-top: 13px;
+  }
+}
+.illustrator{
+  display: flex;
+  justify-content: center;
+padding: 30px;
+}
+.illustrator-1{
+padding: 30px;
+
+}
+.illustrator-2{
+padding: 30px;
+
+}
+.text{
+  display: flex;
+  justify-content: center;
+padding: 1px;
+}
+.text-1{
+  padding:0px;
+}
+.web{
+  display: flex;
+  text-align: center;
+padding: 30px;
+}
+.web-1{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFAA05;
+  padding: 30px;
+  flex-direction: column;
+  margin-top: -60px;
+
+
+}
+.web-2{
+  padding: 30px;
+  justify-content:center;
+
+}
+.dropbtn {
+background-color: #FFF1DE;
+color: #E36834;
+padding: 16px;
+padding-right: 50px;
+font-size: 50px;
+border: none;
+cursor: pointer;
+float: right;
+justify-content: flex-end;
+display: flex;
+margin-top: -50px;
+}
+.button{
+  text-align: center;
+  padding:0px;
   text-decoration: none;
-}
-
-.sidebar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-
-@media screen and (max-width: 700px) {
-  .sidebar {
-    display: none;
-  }
-
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
+  color:black;
+  border-radius: #FFAA05;
+  font-family: "Prompt", sans-serif;
+  font-size: 15px;
 }
